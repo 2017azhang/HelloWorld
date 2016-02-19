@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <View
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff0000"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/text1"
+        android:text="@string/string_one"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="110dp"
+        android:background="#ff44aacc"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/text2"
+        android:text="@string/string_two"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:background="#8000ff"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="210dp"
+        android:id="@+id/text3"
+        android:text="@string/string_three"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:background="#ffff00"/>
+
+    <View
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="260dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff0000"/>
+
+</RelativeLayout>
